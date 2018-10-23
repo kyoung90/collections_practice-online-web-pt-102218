@@ -40,12 +40,14 @@ def find_a(array)
 end 
 
 def sum_array(array)
-  total_sum = 0 
+  # total_sum = 0 
   
-  array.each do |number|
-    total_sum += number
-  end 
-  total_sum
+  # array.each do |number|
+  #   total_sum += number
+  # end 
+  # total_sum
+  
+  array.inject(+)
 end 
 
 def add_s(array)
